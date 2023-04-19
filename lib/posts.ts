@@ -67,9 +67,6 @@ export function getSortedPostsData(): Blog[] {
       contentHtml: null
     };
 
-    console.log("Matter")
-    console.log(JSON.stringify(blogData))
-
     return blogData;
   });
   // Sort posts by date
